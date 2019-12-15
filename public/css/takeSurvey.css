@@ -1,0 +1,84 @@
+/********************************************* Body **********************************************/
+
+#comments-div
+{
+    overflow: auto;
+}
+
+#time-span
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#this-time
+{
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.new-comment
+{
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+#questions-div
+{
+    background-color: #ffffff;
+    padding: .5rem;
+    margin-bottom: .5rem;
+    border-radius: 3px;
+}
+
+.question-text
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1f1f1f;
+}
+
+.question-block
+{
+    border: 3px solid rgba(30, 47, 126, 1);
+    border-radius: 10px;
+    margin: .5rem 0;
+    padding: .5rem;
+    text-align: left;
+}
+
+.radio-btn
+{
+    margin: 10px;
+}
+
+.choice-div
+{
+    padding-left:  10px;
+    padding-right: 10px;
+    width: 100%;
+}
+
+.response-num
+{
+    font-weight: bold;
+    color: #040669;
+    float: right;
+}
+
+.question-clear-btn
+{
+    margin-right: 0;
+}
+
+.btn-div
+{
+    width: 100%;
+    margin-left: 1.5rem;
+}
+
+.disabled
+{
+    background-color: #d0d0d0;
+}

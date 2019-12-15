@@ -1,0 +1,108 @@
+<!--Personal Styling-->
+<link rel="stylesheet" href="../css/style.css" type="text/css" />
+<link rel="stylesheet" href="../css/takeSurvey.css" type="text/css" />
+
+<!--<nav class="navbar navbar-default bg-secondary">
+    <div class="container">
+        <div class="navbar-header">
+            <div class="navbar-user" data-survey="{{id}}" data-username="{{user}}">Hello, {{user}}! Unread Surveys:</div><div id="unread-div">0</div>
+            <a class="navbar-logout" href="/logout">
+                Logout
+            </a>
+            <a class="navbar-logout" href="/home">
+                Home
+            </a>
+        </div>
+    </div>
+</nav>-->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <div class="navbar-user navbar-brand" data-survey="{{id}}" data-username="{{user}}">Hello, {{user}}! Unread
+            Surveys:<div id="unread-div">0</div>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="navbar-logout" href="/home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="navbar-logout" href="/logout">Logout</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<h1 id="survey-title">take Survey</h1>
+
+<div id="page-body" style="text-align: left;">
+    <div class="container border-top mb-2">
+        <div class="row">
+            <div class="col-md-8 border-right border-left">
+                <div>
+                    <span id="time-span">Time Remaining: </span><span id="this-time">Expired</span>
+                </div>
+
+                <!--Google Map Div-->
+                <div id="map" class="border rounded bg-light mt-2 mb-3" style="height: 400px;"></div>
+
+                <!--Survey Questions-->
+                <div id="questions-div"></div>
+            </div>
+
+            <div class="col-md-4 border-right border-left">
+                <div class="mt-2">
+                    <p class="survey-info">
+                        Comment History
+                    </p>
+                    <div id="comments-div" class="border rounded bg-light mt-2" style="height: 450px;"></div>
+                </div>
+
+                <form>
+                    <div class=" form-group mt-2">
+                        <label for="comment-text" class="new-comment">Add New Comment</label>
+                        <input type="text" class="form-control" id="comment-text" placeholder="Enter comment...">
+                        <input type="submit" class="btn btn-success my-2" id="comment-btn" value="Send">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer id="sticky-footer" class="pt-4 pb-1 mt-4">
+    <div class="container text-center">
+        <small>&copy;Nick Mikstas, Chris Mikstas, Sultan Kisana, Elijah Lanza</small>
+    </div>
+</footer>
+
+<!--Bootstrap-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+<!--Google Maps-->
+<script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDEmkNEnNFY2QE3UdqGT16RxeKTSu1zW0c&libraries=places&callback=initMap"></script>
+
+<!--Moment.js-->
+<script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+
+<!--jQuery-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!--Take Survey Javascript-->
+<script type="text/javascript" src="../js/takeSurvey.js"></script>

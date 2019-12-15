@@ -1,0 +1,157 @@
+/******************************************* Page Body *******************************************/
+
+.page-title
+{
+    margin: 15px 0px;
+}
+
+.survey-info
+{
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#userResults, #usersAdded, #distroDiv, #commentsDiv, #gPlacesResults, #questionOptions
+{
+    overflow: auto;
+}
+
+button.addUserBtns:hover
+{
+    background-color: rgb(1, 181, 241);
+}
+
+.addUserBtns
+{
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+button.deleteQBtn:hover
+{
+    background-color: #c00202;
+}
+
+.deleteQBtn
+{
+    background-color: #f44336;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin-top: 5px;
+    padding: 7px 12px 7px 12px;
+    cursor: pointer; 
+}
+
+button.deleteUserBtns:hover
+{
+    background-color: #c00202;
+}
+
+.deleteUserBtns
+{
+    background-color: #f44336;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+button.addPlacesButton:hover
+{
+    background-color: rgb(1, 181, 241);
+}
+
+.addPlacesButton
+{
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+.question-text
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1f1f1f;
+    border-bottom: 5px solid black;
+}
+
+.question-block
+{
+    border: 3px solid rgba(30, 47, 126, 1);
+    border-radius: 5px;
+    margin: .5rem .5rem;
+    padding: .5rem;
+    text-align: left;
+}
+
+.result-block
+{
+    border: 3px solid rgba(30, 47, 126, 1);
+    border-radius: 5px;
+    margin: .25rem .25rem;
+    padding: .5rem;
+    text-align: left;
+}
+
+li
+{
+    margin-left: 10px;
+}
+
+/******************************************* Google Maps *******************************************/
+
+#map
+{
+	height: 400px;
+	width: 100%;
+}
+
+/********************************************** Misc ***********************************************/
+
+.not-valid
+{
+    box-shadow: 0 0 0 .2rem #ff0000;
+}
+
+.alert-dismissible .close
+{
+    position: relative;
+    top: -10px;
+}
+
+/******************************************** Navbar *********************************************/
+
+.navbar-logout
+{
+    float: right;
+}
+
+.navbar
+{
+    border: 0;
+    margin-bottom: 0;
+}

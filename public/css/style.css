@@ -1,0 +1,223 @@
+/******************************************* HTML Tags *******************************************/
+body, html
+{
+    height: 100%;
+    width: 100%;
+    background-image: url("../img/noisy_net.png");
+    overflow-x: hidden;
+    font-size: 16px;
+}
+
+h1
+{
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+}
+
+h2
+{
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    width: 100%;
+}
+
+h3
+{
+    color: #0f0f3f;
+}
+
+h4
+{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #070707;
+    text-align: left;
+}
+
+h5
+{
+    font-family: sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+}
+
+h6
+{
+    font-family: sans-serif;
+    font-size: 1rem;
+    color: #ffffff;
+    text-align: left;
+}
+
+p
+{
+    display: inline;
+    line-height: 1.5;
+    font-size: 1.2rem;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #3f3f3f;
+}
+
+ul
+{
+    list-style-type: disc;
+    margin-left: 10%;
+}
+
+/******************************************** Header *********************************************/
+.header-class
+{
+    font-family: Georgia, Times, serif;
+    text-align: center;
+    background-color: rgba(30, 47, 126, 0.3);
+    color: #ffffff;
+    font-size: 30px;
+    border-bottom: 3px solid #666666;
+    padding: 20px 0px;
+}
+
+.nav-link
+{
+    font-family:  sans-serif;
+    font-size:    20px;
+}
+
+.nav-title
+{
+    height: 100%;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.nav-title:hover,
+.nav-link:hover
+{
+    background-color:  rgba(30, 47, 126, 1);
+    border-radius: 5px;
+}
+
+/******************************************** Footer *********************************************/
+footer
+{
+    border-top: 1px solid #666666;
+    background-color: rgba(30, 47, 126, 0.3);
+    color: #ffffff;
+}
+
+/******************************************* Page Body *******************************************/
+#page-body, #login-body, #signup-body
+{
+    flex: 1 0 auto;
+    text-align: center;
+}
+
+.page-title
+{
+    margin: 15px 0px;
+}
+
+.survey-info
+{
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+/*************************************** Project Specific ****************************************/
+.burger-image
+{
+    margin-top: 1rem;
+    max-width: 100%;
+}
+
+.label
+{
+    font-family: sans-serif;
+    font-size: 1.25rem;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.parent-div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.burger-item
+{
+    text-align: left;
+    padding: 10px;
+}
+
+/**************************************** Signup and Login ***************************************/
+.sign-up, .log-in
+{
+    text-align: left;
+    margin: 2rem auto;
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    border: 3px solid rgba(30, 47, 126, 1);
+}
+
+.info-message
+{
+    height: 50px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.member-div
+{
+    display: inline-block;
+   
+}
+
+.float-right-div
+{
+    float: right;
+}
+
+/******************************************** Navbar *********************************************/
+.navbar-header
+{
+    width: 100%;
+}
+
+.navbar-user
+{
+  display: inline;
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.navbar-logout
+{
+    color: #afafaf;
+    margin-right: 25px;
+}
+
+#unread-div
+{
+    display: inline-block;
+    margin-left: .5rem;
+    color: #771111;
+    font-weight: bold;
+}

@@ -1,0 +1,84 @@
+<link rel="stylesheet" href="/css/style.css" type="text/css">
+<link rel="stylesheet" href="/css/userSettings.css" type="text/css">
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <div class="navbar-user navbar-brand" data-username="{{user}}">Hello, {{user}}! Unread Surveys:<div
+                id="unread-div">0</div>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="navbar-logout" href="/home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="navbar-logout" href="/logout">Logout</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="page-title">
+    <h1>User Settings</h1>
+</div>
+
+<div id="page-body" style="text-align: left;">
+    <div class="container">
+        <p>Change Email</p>
+        <div class="error-message" id="email-message"></div>
+        <form class="emailForm">
+            <div id="emailbtn"></div>
+            <label for="email"><b>Email</b></label>
+            <input type="text" id="email-input" placeholder="Enter Email" name="email" required>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        <hr>
+        <p>Change Password</p>
+        <div class="error-message" id="password-message"></div>
+        <form class="passwordForm">
+            <div id="password1"></div>
+            <label for="psw"><b>Password</b></label>
+            <input type="password" id="password-input" placeholder="Enter Password" name="psw" required>
+
+            <label for="psw-repeat"><b>Repeat Password</b></label>
+            <input type="password" id="confirm-input" placeholder="Repeat Password" name="psw-repeat" required>
+            <button type="submit" class="btn btn-primary">Submit</button>
+
+        </form>
+        <hr>
+
+        <div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <p> Allow Email Notifications</p><label class="form-check-label" for="exampleCheck1"></label>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<footer id="sticky-footer" class="pt-4 pb-1 mt-4">
+    <div class="container text-center">
+        <small>&copy;Nick Mikstas, Chris Mikstas, Sultan Kisana, Elijah Lanza</small>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/userSettings.js"></script>
