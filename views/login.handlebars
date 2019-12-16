@@ -3,17 +3,66 @@
 
 <!--Header-->
 <header class="header-class">
-    <nav class="navbar navbar-dark navbar-expand-lg">
-        <div class="container text-center">
-            <h1>YASS</h1>
-        </div>
-    </nav>
-</header>
+        <nav class="navbar navbar-dark navbar-expand-lg">
+            <a class="navbar-brand nav-title px-2" href="https://nmikstas.github.io/portfolio/index.html">Nick Mikstas Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="container text-center">
+                <h1>YASS</h1>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://nmikstas.github.io/portfolio/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://nmikstas.github.io/portfolio/resume.html">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://nmikstas.github.io/portfolio/web.html">Web</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://nmikstas.github.io/portfolio/embedded.html">Embedded</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://nmikstas.github.io/portfolio/fpga.html">FPGA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://nmikstas.github.io/portfolio/dsp.html">DSP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://nmikstas.github.io/portfolio/games.html">Games</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
 <!--Main content body-->
 <div id="login-body" class="container">
-    <div class-"row">
-        <div class="col-md-3"></div>
+    <div class="row">
+        
+        <div class="info-div col-md-6">
+            <h2>About YASS</h2>
+            <p>
+                YASS is survey software that can handle any number of users. The authentication is based on
+                passport and uses bcrypt to salt and hash the passwords. It has a MySQL database on the back end.
+                It uses the Google Places API and Google Maps API. A user can create a survey with any number
+                of questions.  The questions can have any number of choices.  The choices can be picked from a
+                Google Paces search or can be a custom choice.  The Google Places choices place markers on a map
+                for convenience.  The surveys can be distributed to any number of other users.
+                <br><br>
+                A real-time chat is available in the survey forums so the survey takers can communicate with one
+                another. The tallies of the survey choices is shown to all the users in real-time.
+                <br><br>
+                The user "test" with the password "test" can be used to explore the software without signing up.
+            </p>
+
+        </div>
 
         <div class="log-in col-md-6">
             <h2>Log In</h2>
